@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            button {
+                  font-size: 1.1em;
+                  background-color: #EBF5FF;
+                  color: #4312AE;
+                  border: 2px solid black;
+                  box-shadow: 4px 4px 4px #999999;
+            }
+
+            button:hover,
+            button:focus,
+            button:active {
+                  /* swap colors */
+                  color: #EBF5FF;
+                  background-color: #4312AE;
+                  cursor: pointer;
+                  /* displays a hand */
+            }
+      </style>
+</head>
+
+<body>
+      <button onclick="showAlert()">Show alert</button>
+      <script>
+
+            function showAlert() {
+                  var myText = "This can be whatever text you like!";
+                  alert(myText);
+            }
+
+      </script>
+</body>
+
+</html>
